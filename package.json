@@ -38,6 +38,11 @@
       "import": "./dist/packages/flags/helper/index.js",
       "require": "./dist/packages/flags/helper/index.js"
     },
+    "./notifier": {
+      "types": "./dist/packages/notifier/index.d.ts",
+      "import": "./dist/packages/notifier/index.js",
+      "require": "./dist/packages/notifier/index.js"
+    },
     "./react": {
       "types": "./dist/react/index.d.ts",
       "import": "./dist/react/index.js",
@@ -61,7 +66,8 @@
     "@types/bun": "^1.2.12",
     "@typescript/native-preview": "^7.0.0-dev.20250522.2",
     "lefthook": "^1.11.13",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "zod": "^3.25.27"
   },
   "peerDependencies": {
     "@bugsnag/js": "^8.2.0",
